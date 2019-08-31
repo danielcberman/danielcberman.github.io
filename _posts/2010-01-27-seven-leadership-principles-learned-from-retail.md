@@ -4,7 +4,7 @@ title: "Seven Leadership Principles Learned From Retail"
 categories: misc
 ---
 
-I have spent over 3 years, (Author note: I would spend another 3+ years in retail before joining Bethel but the lessons still ring true.) in two retail positions and multiple “customer service” related situations. Interacting with people is never easy but seeing as God seems to have placed me in my current situation for a while, I thought I might try to list the things I have learned from my life experience thus far.
+I have spent over 3 years, (Author note: I would spend another 3+ years in retail before joining Bethel but the lessons still ring true.) in two retail positions and multiple “customer service” related situations. Interacting with people is never easy but seeing as God seems to have placed me in my current situation for a while, I thought I might try to list the things I have learned from my life experience thus far. 
 
 Maintain consistent expectations of those beneath you. Building trust, charisma, and a sense of vision only works when everybody knows precisely what is expected of them. Life and situations come up, but at the root of it should be unchangeable values about why your family, business, or organization exist and why it matters. Being a part of something that matters, ultimately means that the people understand themselves matter.
 
