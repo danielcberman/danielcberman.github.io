@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tansen Mission Hospital, Guest WiFi Internet Speed."
+title: "Tansen Mission Hospital, Guest WiFi Internet Speed"
 categories: travel
 ---
 
