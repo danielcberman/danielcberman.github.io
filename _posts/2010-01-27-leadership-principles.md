@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Seven Leadership Principles Learned From Retail"
-categories: misc
+categories: leadership
 ---
 
 I have spent over 3 years, (Author note: I would spend another 3+ years in retail before joining Bethel but the lessons still ring true.) in two retail positions and multiple customer service related situations. Interacting with people is never easy but seeing as God seems to have placed me in my current situation for a while, I thought I might try to list the things I have learned from my life experience thus far. 
