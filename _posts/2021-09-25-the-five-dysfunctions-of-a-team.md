@@ -21,7 +21,7 @@ My main struggle with "Five Leadership Dysfunctions of a Team" is that "Who Stol
 
 Having finished the book, it will definitely go on my list of book recommendations. I can already see some areas to work on both personally and professionally.
 
-Ready to read the book? You can order it here (https://www.tablegroup.com/product/dysfunctions/)
+Ready to read the book? You can order it here [https://www.tablegroup.com/product/dysfunctions/](https://www.tablegroup.com/product/dysfunctions/)
 
 Here are some additional PDF resources released by the publisher, The Table Group.
 
