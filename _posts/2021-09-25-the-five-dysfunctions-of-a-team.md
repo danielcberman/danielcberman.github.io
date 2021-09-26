@@ -5,7 +5,7 @@ date:   2021-09-25 12:00:00
 categories: Leadership
 ---
 
-Having dealt with professional burnout just before COVID hit, one of my recent professional goals was to become part of an IT Team. I have had some bumps along the way, but I finally landed in a team of two with a single environment to manage. My wife is a financial coach, and The "Five Leadership Dysfunctions of a Team: A Leadership Fable" by Patrick Lencioni was recommended to me by a financial coach friend based on my interest in organizational development.
+Having dealt with professional burnout a couple of months before COVID hit, one of my recent professional goals was to become part of an IT Team. I have had some bumps along the way, but I finally landed in a team of two with a single environment to manage. My wife is a financial coach, and The "Five Leadership Dysfunctions of a Team: A Leadership Fable" by Patrick Lencioni was recommended to me by a financial coach friend based on my interest in organizational development.
 
 The book tells the fictional story of Decision, Tech working through a major leadership change due a to lack of competitive results. Kathryn the new CEO, begins to walk the leadership team through understanding that the company's challenges are not simply about individual departmental issues which can commonly be found at any company but the lack of a healthy team dynamic and interaction for the leadership team itself. These dysfunctions are discussed as, 
 
