@@ -49,3 +49,6 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
+
+# Add Web Finger Support
+include: [".well-known"]
