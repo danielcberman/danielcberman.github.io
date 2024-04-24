@@ -23,6 +23,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Theme-specific settings
 
@@ -30,6 +31,8 @@ plugins:
 # in order as they should show up.
 header_pages:
   - about.md
+
+paginate: 5
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
