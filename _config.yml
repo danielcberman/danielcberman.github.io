@@ -76,7 +76,7 @@ minima:
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 # Pretty URL Format
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:year/:month/:day/:title/
 
 # Add Web Finger Support
 include: [".well-known"]
