@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Website Redesign"
+title: "2024 Website Redesign"
 date:   2024-04-26 12:00
 categories: Website
 published: false
@@ -15,17 +15,13 @@ This site is still hosted on Github Pages but the theme has been updated from Mi
 The following changes have been made,
 
 1. Minima 3.0 Dark Theme activated in _config.yml
-2. The content window has been widened in CSS from 800 pixels to 1600 pixels. This was done to taken advantage of modern screen widths. Text still reflows properly when the site is viewed on mobile. 
-3. URLs have been rewritten to remove the .html at the end of the URLs with the following code in _config.yml. [Code] permalink: /:categories/:year/:month/:day/:title/ [/Code]
-4. Paginate has been enabled with 10 posts per page.
-5. Site search has been added with Lunr.js using the tutorial from https://jekyllcodex.org/without-plugin/search-lunr/. The search results page has also been customized to be left hand justified to fit within the rest of the site.
-6. Site search SVG icon comes from https://fluenticons.co.
-7. The Favicon comes from SourceURL and includes icons for website tabs as well as adding danielcberman.com to your homescreen if desired.
-8. TODO HTML for posts and pages is automatically minified on build in Liquid using this jekyll layout overlayed over the top of the Minima theme  https://jch.penibelst.de.
-9. About page content has been updated with some life and professional changes that happened during COVID and tries to place it all in some type of context as I move forward into cyber-security.Had a request from a friend to reset the Windows password on their computer. Almost all of the instructions you find online about resetting a windows password talk about booting the device via USB or CD/DVD Drive first.
-
-What if the device refuses to boot via USB?
-
-With physical access to the computer and a USB to SATA adapter, I decided to remove the hard drive from the computer, and boot my laptop with an Ubuntu Linux USB stick. From there I installed chntpw (https://www.chntpw.com), cleared the password on the offline copy of Windows 10 and exited. From there I reconnected the hard drive to the original system and booted the system. With no password assigned to the account, the system logged in automatically.
-
-While my friend will be happy, and I have done everything with her permission, this is a great example of why maintaining physical control of your computer is so important.
+2. The content window has been widened in CSS from 800 pixels to 1600 pixels. This was done to taken advantage of modern screen widths. Text still reflows properly when the site is viewed on mobile.
+3. Robots.txt from https://shellsharks.com/robots.txt has been added and personalized for this site. Mike Sass has come up with the most comprohensive Robots.txt for blocking "AI" bots that I have found.
+4. URLs have been rewritten use /blog/ as a base and the post title with the .html removed at the end of the URLs. The following code is used in my _config.yml. [Code] permalink: /blog/:title/ [/Code]
+5. Paginate has been enabled with 10 posts per page.
+6. Site search has been added with Lunr.js using the tutorial from https://jekyllcodex.org/without-plugin/search-lunr/. The search results page has also been customized to be left hand justified to fit within the rest of the site.
+7. 404 Page has been updated with a link to the search page to not leave visitors hanging.
+8. Site search SVG icon comes from https://fluenticons.co.
+9. The Favicon comes from SourceURL and includes icons for website tabs as well as adding danielcberman.com to your homescreen if desired. This favicon was generated using the Abyssinica SIL Font. Copyright (c) 2000-2022 by SIL International. Source: https://fonts.gstatic.com/s/abyssinicasil/v5/oY1H8ezOqK7iI3rK_45WKoc8J6UZBFOVAXuI.ttf. License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
+10. TODO HTML for posts and pages is automatically minified on build in Liquid using this jekyll layout overlayed over the top of the Minima theme  https://jch.penibelst.de.
+11. About page content has been updated with some life and professional changes that happened during COVID and tries to place it all in some type of context as I move forward into cyber-security.
