@@ -21,7 +21,10 @@ The following changes have been made,
 1. Minima 3.0 Dark Theme activated in _config.yml
 2. The content window has been widened in CSS from 800 pixels to 1600 pixels. This was done to taken advantage of modern screen widths. Text still reflows properly when the site is viewed on mobile.
 3. Robots.txt from [https://shellsharks.com/robots.txt](https://shellsharks.com/robots.txt) has been added and personalized for this site. Mike Sass has come up with the most comprohensive Robots.txt for blocking "AI" bots that I have found.
-4. URLs have been rewritten use /blog/ as a base and the post title with the .html removed at the end of the URLs. The following code is used in my _config.yml. [Code] permalink: /blog/:title/ [/Code]
+4. URLs have been rewritten use /blog/ as a base and the post title with the .html removed at the end of the URLs. The following code is used in my _config.yml to enable this.
+   ~~~~~~~~
+   permalink: /blog/:title/
+   ~~~~~~~~
 5. Paginate Jekyll plugin  has been enabled in _config.yml with 10 posts per page.
 6. Site search has been added with Lunr.js using the tutorial from [https://jekyllcodex.org/without-plugin/search-lunr/](https://jekyllcodex.org/without-plugin/search-lunr/). The search results page has also been customized to be left hand justified to fit within the rest of the site.
 7. Site search icon comes from [https://fluenticons.co](https://fluenticons.co).
