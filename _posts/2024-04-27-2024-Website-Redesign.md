@@ -10,9 +10,9 @@ Welcome to the new [danielcberman.com](https://www.danielcberman.com)!
 
 First screen shots!
 
-| Original                 |  2024 Revision           |
+| 2024 Revision            |  Original                |
 :-------------------------:|:-------------------------:
-![](/assets/2023-old-danielcberman-com.png)  | ![](/assets/2024-new-danielcberman-com.png)
+![](/assets/2024-new-danielcberman-com.png)  | ![](/assets/2023-old-danielcberman-com.png)  | 
 
 This site is still hosted on Github Pages but the theme has been updated from Minima 2.5.1 back in 2019 to the latest 3.0 version forked from [https://github.com/jekyll/minima](https://github.com/jekyll/minima) in April 2024.
 
