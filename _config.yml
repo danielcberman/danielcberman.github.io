@@ -81,8 +81,6 @@ permalink: /blog/:title/
 collections:
   notes:
    output: true
-   permalink: /:collection/:name
-
 
 # Add Web Finger Support
 include: [".well-known"]
