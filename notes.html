@@ -2,6 +2,8 @@
 layout: base
 ---
 
+<div class="home">
+
   {% if site.paginate %}
     {% assign notes = paginator.notes %}
   {% else %}
@@ -12,16 +14,16 @@ layout: base
   {%- if notes.size > 0 -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for notes in site.notes -%}
+      {% for notes in site.notes %}
       <li>
         <span class="post-meta">{{ note.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ note.url | relative_url }}">
-            {{ notes.title | escape }}
+          <a class="post-link" href="{{ notes.url | prepend: site.baseurl }}">
+               {{ notes.title }}
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ notes.excerpt }}
+          {{ notes.description | truncate: 160 }}
         {%- endif -%}
       </li>
       {%- endfor -%}
