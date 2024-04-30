@@ -1,29 +1,39 @@
 ---
 layout: base
+title: notes
 ---
 
 <div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
 
   {% if site.paginate %}
-    {% assign notes = paginator.notes %}
+    {% assign posts = paginator.posts %}
   {% else %}
-    {% assign notes = site.notes %}
+    {% assign posts = site.posts %}
   {% endif %}
 
 
-  {%- if notes.size > 0 -%}
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {% for notes in site.notes %}
       <li>
-        <span class="post-meta">{{ note.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
-          <a class="post-link" href="{{ notes.url | prepend: site.baseurl }}">
-               {{ notes.title }}
-          </a>
+	    <a href="{{ notes.url | prepend: site.baseurl }}">
+  	    <h2>{{ notes.title }}</h2>
+	    </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ notes.description | truncate: 160 }}
+          {{ post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
