@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2024 Website Redesign"
-date:   2024-04-7 08:00
+date:   2024-04-27 08:00
 categories: Website
 published: true
 ---
