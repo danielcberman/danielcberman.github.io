@@ -4,9 +4,11 @@ title: Notes
 permalink: /notes/
 ---
 
-{% for note in site.notes | sort: "date” | reverse%}
-<div>
-<p><a href=“{{note.url}}”>{{note.title}}</a></p>
+<ul class="post-list">
+{% for note in site.notes}
+<li>
+<h3><a href=“{{note.url}}”>{{note.title}}</a></h3>
 <p>{{note.excerpt | strip_html | strip_newlines | truncatewords: 50}}</p>
-</div>
+</li>
 {% endfor %}
+</ul>
