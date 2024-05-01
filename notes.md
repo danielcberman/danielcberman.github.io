@@ -5,9 +5,6 @@ permalink: /notes/
 ---
 
 <ul class="post-list">
-
-{%- assign sorted_notes = site.notes | sort: "date” | reverse -%}
-{%- for note in sorted_notes -%}
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 <li>
 <span class="post-meta">{{ note.date | date: date_format }}</span>
