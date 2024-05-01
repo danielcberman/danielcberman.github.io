@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: base
 title: Notes
 permalink: /notes/
 ---
@@ -15,7 +15,7 @@ permalink: /notes/
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
-    {% assign posts = site.posts %}
+    {% assign posts = site.notes %}
   {% endif %}
 
 
