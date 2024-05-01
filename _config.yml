@@ -78,5 +78,11 @@ minima:
 # Pretty URL Format
 permalink: /blog/:title/
 
+collections:
+    notes:
+      output: true
+      permalink: /notes/:year/:month/:day/:slug
+      sort_by: date
+
 # Add Web Finger Support
 include: [".well-known"]
