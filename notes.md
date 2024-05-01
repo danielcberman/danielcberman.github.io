@@ -3,7 +3,7 @@ layout: base
 title: Notes
 permalink: /notes/
 ---
-
+<div class="home">
 <ul class="post-list">
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 {%- for note in site.notes | sort: "date_format" -%}
@@ -14,3 +14,4 @@ permalink: /notes/
 </li>
 {%- endfor -%}
 </ul>
+</div>
