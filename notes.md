@@ -12,5 +12,5 @@ permalink: /notes/
 <h3><a class="post-link" href="{{note.url}}">{{note.title | escape}}</a></h3>
 <p>{{note.excerpt | strip_html | strip_newlines | truncatewords: 50}}</p>
 </li>
-{% endfor %}
+{%- endfor -%}
 </ul>
