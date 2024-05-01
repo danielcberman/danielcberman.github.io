@@ -6,7 +6,9 @@ permalink: /notes/
 
 <ul class="post-list">
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-{%- for note in site.notes | sort: "date_format" | Reverse -%}
+{% comment %}{%- for note in site.notes | sort: "date_format" -%}{% endcomment %}
+{%- assign sorted_notes = site.notes | sort: "date” | reverse -%}
+{%- for note in sorted_notes -%}
 <li>
 <span class="post-meta">{{ note.date | date: date_format }}</span>
 <h3><a class="post-link" href="{{note.url}}">{{note.title | escape}}</a></h3>
